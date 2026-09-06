@@ -1,0 +1,11 @@
+# Deployed Streamlit app -- no TensorFlow needed, it only reads
+# precomputed artifacts from data/processed/.
+streamlit>=1.35
+pandas>=2.0
+numpy>=1.24
+plotly>=5.20
+
+# Only needed to (re)generate data/processed/ via scripts/train_and_export.py.
+# Not required to run the deployed dashboard itself.
+# tensorflow-cpu>=2.16
+# scikit-learn>=1.3

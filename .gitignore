@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Trained model weights (large; regenerate with scripts/train_and_export.py)
+data/processed/*.keras
+
+# Raw dataset is large (~25MB) -- tracked via .gitattributes/instructions in
+# README instead of committing by default. Comment this out if you want to
+# commit it directly (fine for a personal/coursework repo).
+# data/raw/*.csv
+
+# OS / editor cruft
+.DS_Store
+.ipynb_checkpoints/
+*.log
+
+# Streamlit
+.streamlit/secrets.toml

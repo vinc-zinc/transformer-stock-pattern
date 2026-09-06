@@ -1,0 +1,6 @@
+# Only needed to run scripts/train_and_export.py locally and regenerate
+# data/processed/. The deployed Streamlit app does NOT need any of this.
+tensorflow-cpu>=2.16
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
