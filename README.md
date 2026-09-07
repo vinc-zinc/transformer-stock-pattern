@@ -66,8 +66,7 @@ train/val/test split), trains both models with early stopping (max 15
 epochs, patience 5 on validation loss — the same architecture defaults used
 in the original coursework grid search), evaluates them on the held-out
 test set (2020 onward), and writes every artifact the dashboard needs into
-`data/processed/`. On a CPU-only machine this takes roughly 20–35 minutes
-total for both models.
+`data/processed/`. On a CPU-only machine this takes roughly 1 hour. Depends on what parameters too, though.
 
 ## Deploying for free (Streamlit Community Cloud)
 
@@ -107,7 +106,3 @@ git push -u origin main
   directional accuracy, all benchmarked against a random-walk (no-change)
   baseline.
 
-## Attribution
-
-Adapted from coursework notebooks `Temporal_Transformer_price_v2.ipynb` and
-`CNN_LSTM_price_fixed_v2.ipynb` (included under `notebooks/` for reference).
